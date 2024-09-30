@@ -1,6 +1,6 @@
 import { useFetch, useCounter} from "../hooks"
-import { LoadigMessage } from "./LoadigMessage"
-import { PokemonCard } from "./PokemonCard"
+import { LoadigMessage } from "../03-examples/LoadigMessage"
+import { PokemonCard } from "../03-examples/PokemonCard"
 
 export const Layout = () => {
 
