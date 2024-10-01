@@ -30,9 +30,9 @@ export const MultipleCustomHooks = () => {
 
       <h2>{data?.name}</h2>
 
-      <button className="btn btn-primary mt-2" onClick={() => counter > 1 ? decrement() : null}>Before</button>
+      <button className="btn btn-primary mt-2" onClick={() => counter > 1 ? decrement() : null} >Before</button>
 
-      <button className="btn btn-primary mt-2" onClick={() => increment()}>After</button>
+      <button className="btn btn-primary mt-2" onClick={() => increment()} aria-label='after'>After</button>
 
     </>
   )
